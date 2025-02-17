@@ -64,6 +64,9 @@ app.delete("/users/:id", (req, res) => {
     res.json({ message: "사용자가 삭제되었습니다." });
 });
 
+
+// 서버 실ㅇ 명렁어 : node server.js
+// 서버ㄹ행은 nodemon 모듈을 이용할 수 있음.
 // 서버 실행
 app.listen(port, () => {
     console.log(`✅ 서버가 실행 중입니다: http://localhost:${port}`);
